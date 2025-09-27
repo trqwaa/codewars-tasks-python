@@ -1,3 +1,3 @@
 def Daun(a, b):
     return a + b
-print(Daun(1, 2))
+print('Кто прочел тот лох', Daun(1, 2))
