@@ -7,10 +7,9 @@
 
 
 def word_frequency(text):
-    text = "apple banana apple orange banana apple"
     result = {}
     for x in text.split():
         result[x] = result.get(x, 0) + 1
 
     return result
-print(word_frequency("apple banana apple orange banana apple"))
+print(word_frequency("apple banana apple orange banana apple")) 
