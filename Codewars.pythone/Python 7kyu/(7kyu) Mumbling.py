@@ -5,7 +5,7 @@ def accum(st):
         result_list.append(y)
     pass
     result = '-'.join(result_list)
-    return print (accum(123))
+    return result
 
 
 #для такого идиота это было сложновато
